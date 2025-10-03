@@ -1,0 +1,50 @@
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: white;
+}
+
+.drum-container {
+  position: relative; 
+  display: inline-block;
+  margin: 20px 0;
+}
+
+.drum-image {
+  width: 1080px; 
+  border-radius: 10px;
+}
+
+button {
+  position: absolute;
+  background: rgba(51, 51, 51, 0.8);
+  color: white;
+  border: none;
+  width: 70px;        
+  height: 70px;
+  border-radius: 50%; 
+  font-size: 13px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #ff5722;
+}
+
+
+.crash  { top: 48px;  left: 290px; }
+.tom1   { top: 220px; left: 430px; }
+.tom2   { top: 220px; left: 640px; }
+.tom3   { top: 400px; left: 720px; }
+.snare  { top: 400px; left: 430px; }
+.kick   { top: 540px; left: 530px; }
+.crash2 { top: 320px; left: 200px; }  
+
+
+
+button.active {
+  transform: scale(1.1);
+  background: #ff9800;
+}
